@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+gunicorn
+numpy
+scikit-learn
+websockets
