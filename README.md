@@ -1,4 +1,4 @@
-# Optimal Crypto Trade Cost Simulator
+# Optimal Crypto Trade Cost Prediction
 
 ## 📌 Overview
 
@@ -29,12 +29,12 @@ The goal is to provide traders, quants, and researchers with insights into how t
 | -------- | --------------------------------- |
 | Frontend | Streamlit (Python)                |
 | Backend  | FastAPI, scikit-learn, numpy      |
-| Hosting  | Google Colab, Uvicorn, pyngrok    |
+| Hosting  | Render    |
 | Modeling | Almgren-Chriss, Linear Regression |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (Local System)
 
 ### 1. Run Backend (Google Colab)
 
@@ -57,8 +57,12 @@ streamlit run frontend.py
 ## 🧱 Project Structure
 
 ```
-├── frontend.py               # Streamlit app UI
-├── backend.ipynb             # Backend (FastAPI) in Colab
+├── backend/
+├── ├── main.py               # Backend (FastAPI)
+├── └── requirements.txt      
+├── frontend/
+├── ├── frontend.py           # Streamlit app UI
+├── └── requirements.txt
 ├── docs/
 │   ├── models.md             # Model and algorithm explanation
 │   ├── performance.md        # Optimization and latency benchmarking
