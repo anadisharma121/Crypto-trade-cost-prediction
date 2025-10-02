@@ -1,9 +1,5 @@
 # API Documentation
 
-## Base URL
-
-Use the ngrok tunnel URL provided by the backend when hosted (e.g., `https://abc123.ngrok-free.app`).
-
 ## Endpoint: `/compute`
 
 * **Method:** `POST`
